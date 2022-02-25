@@ -22,7 +22,7 @@ struct BookRow: View {
                 
                 Text ("Rating: \(book.rating)")
                     .padding(.vertical,6)
-                    .foregroundColor(Color.gray)
+                    .foregroundColor(Color.yellow)
                     .font(Font.system(size: 13))
                 
                 Text ("Preț: \(book.price, specifier: "%.2f") lei")
