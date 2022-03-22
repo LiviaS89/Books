@@ -7,7 +7,10 @@ struct TableView: View {
                  Book (title: "Poezii", author: " George Bacovia", year: 1933, image: "bacovia", price: 15.8,rating:2, link: "https://carturesti.ro"),
                  Book (title: "Temă pentru acasă", author: "Nicolae Dabija", year: 2019, image: "Dabija", price: 20.6,rating:5, link: "https://carturesti.ro"),
                  Book (title: "Adam și Eva", author: "Liviu Rebreanu", year: 1946, image: "Adam si Eva", price: 12.8,rating:3, link: "https://carturesti.ro"),
-                 Book (title: "Fecioarele", author: "Alex Michaelides", year: 2021, image: "Fecioarele", price: 30.5,rating:4, link: "https://carturesti.ro")]
+                 Book (title: "Fecioarele", author: "Alex Michaelides", year: 2021, image: "Fecioarele", price: 30.5,rating:4, link: "https://carturesti.ro"),
+                 Book (title: "Prințesa de hârtie", author: "Erin Watt", year: 2020, image: "erin", price: 32.00, rating: 4, link: "https://carturesti.ro"),
+                 Book (title: "Ugly love", author: "Colleen Hoover", year: 2019, image: "love", price: 19.95, rating: 3, link: "https://carturesti.ro"),
+                 Book (title: "Fetița din scrisoare" , author: "Emily Gunnis", year: 2021, image: "fetita", price: 24.95, rating: 5, link: "https://carturesti.ro")]
     
     var body: some View {
         NavigationView {
