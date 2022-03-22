@@ -7,5 +7,10 @@ struct Book {
     var image: String
     var price: Double
     var rating: Int
-    var link: String 
+    var link: String
+    var category: String
+    var language: String
+    var publisher: String
+    var numberOfPages: Int
+    
 }
