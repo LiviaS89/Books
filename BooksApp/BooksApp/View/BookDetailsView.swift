@@ -44,6 +44,10 @@ struct BookDetailsView: View {
                 Text ("Număr pagini: \(book.numberOfPages)")
                     .font(Font.system (size: 12))
                     .fontWeight(.light)
+                        
+                Text ("Tip copertă: \(book.cover)")
+                    .font(Font.system (size: 12))
+                    .fontWeight(.light)
                 }
                 }
                 TextField ("Numar carti", text: $number)
