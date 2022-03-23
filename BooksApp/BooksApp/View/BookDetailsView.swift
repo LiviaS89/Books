@@ -27,7 +27,7 @@ struct BookDetailsView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     
-                    VStack (alignment: .leading, spacing: 10) {
+                    VStack (alignment: .leading, spacing: 12) {
                      
                 Text( "Categorie: \(book.category)")
                     .fontWeight(.light)
@@ -48,6 +48,10 @@ struct BookDetailsView: View {
                 Text ("Tip copertă: \(book.cover)")
                     .font(Font.system (size: 12))
                     .fontWeight(.light)
+                        
+                        Text ("Colecție: \(book.collection)")
+                            .font(Font.system (size: 12))
+                            .fontWeight(.light)
                 }
                 }
                 TextField ("Numar carti", text: $number)

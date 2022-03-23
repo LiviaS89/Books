@@ -13,5 +13,6 @@ struct Book {
     var publisher: String
     var numberOfPages: Int
     var cover: String
+    var collection: String
     
 }
