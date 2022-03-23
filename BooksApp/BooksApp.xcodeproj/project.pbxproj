@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8414A4A7274F8BB200A6FA8E /* BooksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414A4A6274F8BB200A6FA8E /* BooksAppApp.swift */; };
+		8414A4A7274F8BB200A6FA8E /* BooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414A4A6274F8BB200A6FA8E /* BooksApp.swift */; };
 		8414A4AB274F8BBC00A6FA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414A4AA274F8BBC00A6FA8E /* Assets.xcassets */; };
 		8414A4D527830BEC00A6FA8E /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414A4D427830BEC00A6FA8E /* TableView.swift */; };
 		8414A4D7278311BA00A6FA8E /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414A4D6278311BA00A6FA8E /* BookRow.swift */; };
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		8414A4A3274F8BB200A6FA8E /* BooksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8414A4A6274F8BB200A6FA8E /* BooksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAppApp.swift; sourceTree = "<group>"; };
+		8414A4A6274F8BB200A6FA8E /* BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksApp.swift; sourceTree = "<group>"; };
 		8414A4AA274F8BBC00A6FA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8414A4AF274F8BBC00A6FA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8414A4D427830BEC00A6FA8E /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		8414A4E127845DD000A6FA8E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				8414A4A6274F8BB200A6FA8E /* BooksAppApp.swift */,
+				8414A4A6274F8BB200A6FA8E /* BooksApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 				8414A4D527830BEC00A6FA8E /* TableView.swift in Sources */,
 				8414A4E4278462C700A6FA8E /* BookDetailsView.swift in Sources */,
 				8414A4D92783140600A6FA8E /* Book.swift in Sources */,
-				8414A4A7274F8BB200A6FA8E /* BooksAppApp.swift in Sources */,
+				8414A4A7274F8BB200A6FA8E /* BooksApp.swift in Sources */,
 				8414A4D7278311BA00A6FA8E /* BookRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
