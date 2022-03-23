@@ -22,44 +22,45 @@ struct BookDetailsView: View {
                 
                 TextField ("Rating", text: $puncte)
                     .keyboardType(.numberPad)
+                
                 HStack {
-                Image (book.image)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
+                    Image (book.image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
                     
                     VStack (alignment: .leading, spacing: 12) {
-                     
-                Text( "Categorie: \(book.category)")
-                    .fontWeight(.light)
-                    .font(Font.system (size: 12))
-                
-                Text ("Editura: \(book.publisher)")
-                    .font(Font.system (size: 12))
-                    .fontWeight(.light)
-                
-                Text ("Limba: \(book.language)")
-                    .font(Font.system (size: 12))
-                    .fontWeight(.light)
-                    
-                Text ("Număr pagini: \(book.numberOfPages)")
-                    .font(Font.system (size: 12))
-                    .fontWeight(.light)
                         
-                Text ("Tip copertă: \(book.cover)")
-                    .font(Font.system (size: 12))
-                    .fontWeight(.light)
+                        Text( "Categorie: \(book.category)")
+                            .fontWeight(.light)
+                            .font(Font.system (size: 12))
+                        
+                        Text ("Editura: \(book.publisher)")
+                            .font(Font.system (size: 12))
+                            .fontWeight(.light)
+                        
+                        Text ("Limba: \(book.language)")
+                            .font(Font.system (size: 12))
+                            .fontWeight(.light)
+                        
+                        Text ("Număr pagini: \(book.numberOfPages)")
+                            .font(Font.system (size: 12))
+                            .fontWeight(.light)
+                        
+                        Text ("Tip copertă: \(book.cover)")
+                            .font(Font.system (size: 12))
+                            .fontWeight(.light)
                         
                         Text ("Colecție: \(book.collection)")
                             .font(Font.system (size: 12))
                             .fontWeight(.light)
-                }
+                    }
                 }
                 TextField ("Numar carti", text: $number)
                     .keyboardType(.numberPad)
                 
                 Text ("Pret: \(book.price,specifier: "%.2f") lei")
                     .foregroundColor(Color ("Portocaliu"))
-                    
+                
                 
                 if !number.isEmpty {
                     Text ("Ai comandat \(number) carti")
@@ -80,7 +81,7 @@ struct BookDetailsView: View {
                     
                     Spacer ()
                 }
-              Spacer ()
+                Spacer ()
             }
             .padding(.horizontal, 12)
         }
